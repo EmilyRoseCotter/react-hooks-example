@@ -25,6 +25,8 @@ In BooksList.js
 - `import { BooksContext } from '../App'`
 - `const {handleSetSubject} = useContext(BooksContext)`
 
+The diagram used to illustrate prop drilling in React during the lecture can be found here: https://drive.google.com/file/d/1TWM3bhDDYdaxaPLvnFcZy-8zhyrsm7KL/view?usp=sharing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
