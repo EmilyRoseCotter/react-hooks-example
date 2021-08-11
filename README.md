@@ -1,3 +1,30 @@
+# Basic React Hooks Example
+
+This repo demonstrates how to use the three basic react hooks i.e. useState, useEffect and useContext.
+
+If you would like to see how we pass around state using props (vs React context) then you can
+remove the commented out lines in `App.js` and from all of the React components within the
+src folder.
+
+Once you have done that you will need to either remove/comment out the following:
+
+In App.js
+
+- `createContext` from the import list from react
+- `export const BooksContext = createContext()`
+- `const booksDataValue = { booksData, handleSetSubject }`
+- `<BooksContext.Provider value={booksDataValue}>` and `</BooksContext.Provider>`
+
+In BooksList.js
+
+- `import { BooksContext } from '../App'`
+- `const {booksData} = useContext(BooksContext)`
+
+In BooksList.js
+
+- `import { BooksContext } from '../App'`
+- `const {handleSetSubject} = useContext(BooksContext)`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
