@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <div>
       <h1>Book search</h1>
-      <SelectGenre />
     </div>
   );
 };
