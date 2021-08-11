@@ -1,18 +1,18 @@
-import React from 'react'
-import BooksHeader from './BooksHeader'
-import BooksList from './BooksList'
+import React from 'react';
+import BooksHeader from './BooksHeader';
+import BooksList from './BooksList';
 
-const BooksContainer = (
-    // { booksData }
-    ) => {
+const BooksContainer = () =>
+  // { booksData }
+  {
     return (
-        <div>
-            <BooksHeader />
-            <BooksList 
-            // booksData={booksData} 
-            />
-        </div>
-    )
-}
+      <div>
+        <BooksHeader />
+        <BooksList
+        // booksData={booksData}
+        />
+      </div>
+    );
+  };
 
-export default BooksContainer
+export default BooksContainer;

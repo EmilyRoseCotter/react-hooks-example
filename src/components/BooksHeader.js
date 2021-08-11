@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const BooksHeader = () => {
-    return (
-        <div>
-            Here is a list of books from your chosed subject
-        </div>
-    )
-}
+  return <div>Here is a list of books from your chosed subject</div>;
+};
 
-export default BooksHeader
+export default BooksHeader;
