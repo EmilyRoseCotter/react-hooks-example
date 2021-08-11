@@ -12,7 +12,7 @@ const BooksList = () =>
           {booksData &&
             booksData.works.map((book, index) => {
               return (
-                <li key={`${index}-${book.title}`}>
+                <li key={`${index}-${book.title}`} data-testid="book">
                   {book.title}, {book.authors[0].name}
                 </li>
               );
