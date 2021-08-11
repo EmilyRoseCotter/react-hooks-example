@@ -7,7 +7,9 @@ exports[`Header renders correctly 1`] = `
   </h1>
   <label>
     Select your favourite genre below
-    <select>
+    <select
+      data-testid="select-genre"
+    >
       <option
         value="thriller"
       >

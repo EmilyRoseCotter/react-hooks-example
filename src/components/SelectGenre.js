@@ -1,13 +1,10 @@
-import React, { useContext } from 'react';
-import { BooksContext } from '../App';
+import React from 'react';
 
-const SelectGenre = () => {
-  const { handleSetSubject } = useContext(BooksContext);
-
+const SelectGenre = ({ onSelection }) => {
   return (
     <label>
       Select your favourite genre below
-      <select onChange={handleSetSubject}>
+      <select onChange={onSelection} data-testid="select-genre">
         <option value="thriller">Thriller</option>
         <option value="fantasy">Fantasy</option>
         <option value="cats">Cats</option>
