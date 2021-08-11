@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div>
+  <h1>
+    Book search
+  </h1>
+  <label>
+    Select your favourite genre below
+    <select>
+      <option
+        value="thriller"
+      >
+        Thriller
+      </option>
+      <option
+        value="fantasy"
+      >
+        Fantasy
+      </option>
+      <option
+        value="cats"
+      >
+        Cats
+      </option>
+      <option
+        value="science"
+      >
+        Science
+      </option>
+    </select>
+  </label>
+</div>
+`;
