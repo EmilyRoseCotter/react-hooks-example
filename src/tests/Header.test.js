@@ -8,7 +8,11 @@ const booksDataValue = {};
 
 describe('Header', () => {
   it('contains title', () => {
-    render(<Header />);
+    render(
+      <BooksContext.Provider value={booksDataValue}>
+        <Header />
+      </BooksContext.Provider>,
+    );
     expect(screen.getByText('Book search')).toBeInTheDocument();
   });
 });
