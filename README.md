@@ -134,6 +134,13 @@ In the BooksContainer.js
 In the BooksList.js
 - We can now remove/comment out the destructuring of booksData and replace it with:
 `const { booksData } = useContext(BooksContext)`
+<br />
+
+## Step 6
+Congratulations on getting this far! 🎉
+
+As a stretch exercise, move your context into its own "provider" file (using the lecture slides as a guide).
+
 
 <br /><br />
 
